@@ -6,7 +6,7 @@ pedido = input("Ingrese los códigos requeridos por el cliente: ")
 
 def disponibles(inventario, pedidodisponible):
     precio = 0
-    empandisponibles = []
+    empanadas = []
 
     inventario = json.loads(inventario)
     pedidodisponible = pedidodisponible.split(' ')
@@ -14,12 +14,12 @@ def disponibles(inventario, pedidodisponible):
     for pedido in pedidodisponible:
         if pedido in inventario:
             precio += inventario[pedido]
-            empandisponibles.append(pedido)
+            empanadas.append(pedido)
 
-    return precio, empandisponibles
+    return precio, empanadas
 
 
-precio, empandisponibles = disponibles(inventario, pedido)
+precio, empanadas = disponibles(inventario, pedido)
 
 print(precio)
-print(" ".join(empandisponibles))
+print(" ".join(empanadas))

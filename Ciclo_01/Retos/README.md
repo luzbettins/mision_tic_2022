@@ -33,8 +33,8 @@ La salida es la impresión de los puntajes enteros calculados para los UHD en or
 
 | INPUT | OUTPUT |
 | ------------- | ------------- |
-| 18 | 18 40 11 | 
-| 210  | 210 424 126  |
+| 18 | 18 40 11 **/** uno | 
+| 210  | 210 424 126 **/** cuatro  |
 
 [Solución Reto #1](/Ciclo_01/Retos/reto1.py)
 

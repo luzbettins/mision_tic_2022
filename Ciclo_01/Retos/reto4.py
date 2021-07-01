@@ -4,22 +4,22 @@ inventario = input("Ingrese los código de las cajas y su precio: ")
 pedido = input("Ingrese los códigos requeridos por el cliente: ")
 
 
-def disponibles(inventario, pedidoDisponible):
+def disponibles(inventario, pedidodisponible):
     precio = 0
-    empanadasDisponibles = []
+    empandisponibles = []
 
     inventario = json.loads(inventario)
-    pedidoDisponible = pedidoDisponible.split(' ')
+    pedidodisponible = pedidodisponible.split(' ')
 
-    for pedido in pedidoDisponible:
+    for pedido in pedidodisponible:
         if pedido in inventario:
             precio += inventario[pedido]
-            empanadasDisponibles.append(pedido)
+            empandisponibles.append(pedido)
 
-    return precio, empanadasDisponibles
+    return precio, empandisponibles
 
 
-precio, empanadasDisponibles = disponibles(inventario, pedido)
+precio, empandisponibles = disponibles(inventario, pedido)
 
 print(precio)
-print(" ".join(empanadasDisponibles))
+print(" ".join(empandisponibles))

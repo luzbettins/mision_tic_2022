@@ -1,7 +1,7 @@
 # ⚡ Retos Semanales
 
-En este apartado guardo los retos semanales realizados en el ciclo 1 de Misión TIC.
-
+En este apartado subo los retos semanales realizados en el ciclo 1 de Misión TIC.
+ 
 ## Guía de contenido
 
 [Reto #1](#-reto-1) | [Reto #2](#-reto-2) | [Reto #3](#-reto-3) | [Reto #4](#-reto-4)

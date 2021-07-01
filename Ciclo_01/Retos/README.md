@@ -101,6 +101,7 @@ Una cadena de texto con los caracteres de la cadena de entrada en orden de apari
 | M M M S S S M M M Ñ Ñ N N O O O O R R R K K Q Q Q L L L | M S M Ñ N O R K Q L **/** 3 3 3 2 2 4 3 2 3 3 | 
 | O O R S S O O O M M M K K K K R R R P S S S S L L L | O R S O M K R P S L **/** 2 1 2 3 3 4 3 1 4 3 |
 
+[Solución Reto #3](/Ciclo_01/Retos/reto3.py)
 -----
 
 ## 🚀 Reto #4
@@ -128,5 +129,5 @@ En otra línea las claves de las cajas de empanadas que puede llevar.
 | {"j": 33278, "a": 25124, "w": 61687, "o": 65765, "q": 43923}  **/**  j a q o x| 168090  **/**  j a q o| 
 | {"i": 97483, "b": 89320, "l": 84958, "x": 82823} **/**  x m i j | 180306 **/**  x i | 
 
-
+[Solución Reto #4](/Ciclo_01/Retos/reto4.py)
 

@@ -147,6 +147,8 @@ OUTPUT
 >>> O R S O M K R P S L
 >>> 2 1 2 3 3 4 3 1 4 3
 ```
+[Solución Reto #3](/Ciclo_01/Retos/reto3.py)
+
 -------
 ## 🚀 Reto #4
 

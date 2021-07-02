@@ -29,13 +29,28 @@ La entrada es la cantidad entera de UHD (Unidades de Honor y Dignidad) del Capit
 
 La salida es la impresión de los puntajes enteros calculados para los UHD en orden de Capitán América, Visión  y Deadpool separados por espacio simple y en la segunda linea la categoria del nivel de Deadpool.
 
-### Ejemplo
+### Ejemplo 1
+```
+INPUT
 
-| INPUT | OUTPUT |
-| ------------- | ------------- |
-| 18 | 18 40 11 **/** uno | 
-| 210  | 210 424 126 **/** cuatro  |
+>>> 18
 
+OUTPUT
+
+>>> 18 40 11
+>>> uno
+```
+### Ejemplo 2
+```
+INPUT
+
+>>> 210
+
+OUTPUT
+
+>>> 210 424 126
+>>> cuatro
+```
 [Solución Reto #1](/Ciclo_01/Retos/reto1.py)
 
 -----------------------------------------------------------------------------------
@@ -64,14 +79,30 @@ Una línea con el mensaje a cifrar (Cadena de caracteres)
 
 Una línea (Cadena de caracteres) de la misma longitud del mensaje original que solo contará con las letras B F y j.
 
-### Ejemplo
+### Ejemplo 1
+```
+INPUT
 
+>>> GJSÑH 
+>>> LHJAS
+>>> HHAGJJHFÑLADGFFSLSSDSHLGS
 
-| INPUT | OUTPUT |
-| ------------- | ------------- |
-| GJSÑH **/** ÑJH **/**  HHAGJJHFÑLADGFFSLSSDSHLGS | jjFjjjjjBjFFjjjjFFFFFFFFF | 
-| SFL **/** LHJAS ***/***  ÑDDÑDFLHAÑKKSFFADLKÑJÑÑF | FFFFFFjFFFFFFjBBBBBBjFFF | 
-  
+OUTPUT
+
+>>> jjFjjjjjBjFFjjjjFFFFFFFFF
+```
+### Ejemplo 2
+```
+INPUT
+
+>>> SFL 
+>>> ÑJH
+>>> ÑDDÑDFLHAÑKKSFFADLKÑJÑÑF
+
+OUTPUT
+
+>>> FFFFFFjFFFFFFjBBBBBBjFFF
+```
 [Solución Reto #2](/Ciclo_01/Retos/reto2.py)
 
 -----------------------------------------------------------------------------------
@@ -94,16 +125,29 @@ Una cadena de texto separada por espacios
 
 Una cadena de texto con los caracteres de la cadena de entrada en orden de aparición en la lista y en otra fila las veces seguidas que aparece dicho dígito, separados por un espacio
 
-### Ejemplo
+### Ejemplo 1
+```
+INPUT
 
-| INPUT | OUTPUT |
-| ------------- | ------------- |
-| M M M S S S M M M Ñ Ñ N N O O O O R R R K K Q Q Q L L L | M S M Ñ N O R K Q L **/** 3 3 3 2 2 4 3 2 3 3 | 
-| O O R S S O O O M M M K K K K R R R P S S S S L L L | O R S O M K R P S L **/** 2 1 2 3 3 4 3 1 4 3 |
+>>> M M M S S S M M M Ñ Ñ N N O O O O R R R K K Q Q Q L L L
 
-[Solución Reto #3](/Ciclo_01/Retos/reto3.py)
------
+OUTPUT
 
+>>> M S M Ñ N O R K Q L
+>>> 3 3 3 2 2 4 3 2 3 3
+```
+### Ejemplo 2
+```
+INPUT
+
+>>> O O R S S O O O M M M K K K K R R R P S S S S L L L 
+
+OUTPUT
+
+>>> O R S O M K R P S L
+>>> 2 1 2 3 3 4 3 1 4 3
+```
+-------
 ## 🚀 Reto #4
 
 ### Empanadas Doña Marleny 
@@ -122,12 +166,28 @@ Un único dato numérico con el precio de todas las cajas que el cliente desea y
 
 En otra línea las claves de las cajas de empanadas que puede llevar.
 
-### Ejemplos
+### Ejemplos 1
+```
+INPUT
 
-| INPUT | OUTPUT |
-| ------------- | ------------- |
-| {"j": 33278, "a": 25124, "w": 61687, "o": 65765, "q": 43923}  **/**  j a q o x| 168090  **/**  j a q o| 
-| {"i": 97483, "b": 89320, "l": 84958, "x": 82823} **/**  x m i j | 180306 **/**  x i | 
+>>> {"j": 33278, "a": 25124, "w": 61687, "o": 65765, "q": 43923} 
+>>> j a q o x
 
+OUTPUT
+
+>>> 168090
+>>> j a q o
+```
+### Ejemplos 2
+```
+INPUT
+
+>>> {"i": 97483, "b": 89320, "l": 84958, "x": 82823} 
+>>> x m i j
+
+OUTPUT
+
+>>> 180306
+>>> x i
+```
 [Solución Reto #4](/Ciclo_01/Retos/reto4.py)
-

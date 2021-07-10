@@ -18,7 +18,9 @@ Para solucionar un problema se debe determinar de manera clara y concisa cuáles
 
   1. Un granjero tiene cincuenta animales entre conejos y gallinas. Si la cantidad de patas de los animales es ciento cuarenta, **¿Cuántos conejos y cuántas gallinas tiene el granjero?.**
 
-     **Por lo tanto, esta bien condicionado.**
+  ![Ecuación](/img/1.png)
+
+  **Por lo tanto, esta bien condicionado.**
 
   2. Si $a$ es un número real positivo, entonces **¿Cuál es la solución a la ecuación?**
 

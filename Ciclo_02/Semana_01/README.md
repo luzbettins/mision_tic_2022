@@ -54,7 +54,7 @@ Se declaran con la palabra char, representan 1 byte.
 
 - \n : Nueva línea.
 - \t : Tabulador horizontal.
-- \\ : Diagonal invertida (back slash).
+- \ \ : Diagonal invertida (back slash).
 - \’ : Imprime apóstrofo.
 - \" : Imprime Comillas.
 - \b : Retroceso (retrocede un espacio el cursor).

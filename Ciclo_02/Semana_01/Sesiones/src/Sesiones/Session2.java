@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package session2;
+package Sesiones;
 
 import java.util.Scanner;
 
@@ -12,12 +12,7 @@ import java.util.Scanner;
  * @author luzbe
  */
 public class Session2 {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-         Scanner sc = new Scanner(System.in);
+     Scanner sc = new Scanner(System.in);
          // TIPOS DE DATOS
         // Cadenas
         String texto=sc.nextLine();
@@ -27,6 +22,4 @@ public class Session2 {
         int numero2 = Integer.parseInt(sc.nextLine());
         // Flotantes
         double numeroreal = Double.parseDouble(sc.nextLine());
-    }
-    
 }

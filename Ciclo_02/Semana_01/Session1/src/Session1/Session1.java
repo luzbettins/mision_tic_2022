@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Sesiones;
+package Session1;
 
 import java.util.Scanner;
 
@@ -56,6 +56,7 @@ public class Session1 {
         double total = num1 / num2;
         System.out.println(total);
         
+                
     }
 
 }

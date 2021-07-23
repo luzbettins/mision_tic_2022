@@ -90,10 +90,25 @@ char c = sc.nextLine().charAt(0);
 
 ```
 
+# Operadores
+
 ### Operadores aritmeticos
 
-- - = suma
-- - = resta
-- - = multiplicación
-- / = división
-- % = módulo
+- - : suma
+- - : resta
+- - : multiplicación
+- / : división
+- % : módulo
+
+### Operadores de asignación
+
+- = : asignación
+- += : asignación con suma
+- -= : asignación con resta
+- \*= : asignación con multiplicación
+- /= : asignación con división
+
+### Operadores de incremento y decremento
+
+- ++ : incremento
+- -- : decremento

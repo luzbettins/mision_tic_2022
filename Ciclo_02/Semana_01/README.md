@@ -94,11 +94,7 @@ char c = sc.nextLine().charAt(0);
 
 ### Operadores aritmeticos
 
-- - : suma
-- - : resta
-- - : multiplicación
-- / : división
-- % : módulo
+suma +, resta - , multiplicación \* , división /, modulo %
 
 ### Operadores de asignación
 

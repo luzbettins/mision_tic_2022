@@ -193,3 +193,75 @@ OUTPUT
 >>> x i
 ```
 [Solución Reto #4](/Ciclo_01/Retos/reto4.py)
+
+## 🚀 Reto #5
+
+### Colección de Hielocos 
+
+Una importante empresa de productos de bebidas y gaseosas está desarrollando una aplicación para facilitar que sus clientes intercambien hielocos de objetos animados. Los hielocos se organizan por categoría según el color como amarillo, verde, gris, azul y brillante, la única restricción que pedirá la aplicación es que solo se pueden intercambiar por hielocos del mismo tipo.
+
+Lo han contratado a usted y su función es desarrollar una librería llamada “hielocos” que permita realizar las siguientes funciones: 
+
+1. (Vale 1) La función "colordehieloco" que dada una lista de los colores de hieloco (en la posición i-ésima de la lista está el tipo de dicho hieloco), genera una lista con los colores de hielocos sin repetición.
+
+Por ejemplo si el usuario tiene diez hielocos y cada uno tiene los siguientes tipos:
+
+['amarillo','verde','azul','azul','azul','amarillo','verde','azul','azul','azul']
+
+la función debe retornar la lista
+
+
+['amarillo','verde','azul']
+
+Nótese que las clases aparecen solo una vez. 
+
+
+2. (Vale 1) La función "mefaltandelcolordelhieloco " que dada una lista con los números de hielocos que les faltan, la lista de las clases de cada hieloco y un clase de hielocos (en ese orden), les retorne una lista con los números de dicha clase que les faltan.
+
+Por ejemplo si se ejecuta la función:
+
+mefaltandelcolordelhieloco([3,6,8],['amarillo','verde','azul','azul','azul','amarillo','verde','azul','azul','azul'],'azul')
+
+
+debe retornar la lista
+
+[3,8]
+
+Nótese que los números de hielocos empiezan en cero (0) y van hasta el nueve (9) en este ejemplo (siempre empiezan en cero).
+
+Por ejemplo si ejecutan la
+
+función:
+
+mefaltandelcolordelhieloco([1,3,6,8], ['amarillo','verde','azul','azul','azul','amarillo','verde','azul','azul','azul'], 'verde')  
+
+
+Se debe retornar la lista:
+
+[1,6] 
+
+
+3. (Vale 1) La función "notengo" que dada una lista con los hielocos que tiene otra persona y una lista con los hielocos que tengo retorna la lista con los hielocos que me interesan de la otra persona.
+
+Por ejemplo si se llama:
+
+notengo([3,5,7,10,15,16],[4,10,5,8])
+
+Se debe retornar la lista:
+
+[3,7,15,16] 
+
+4. (Vale 1) Para simplificar la primera versión de la librería decidieron pensar que todos los hielocos son de un mismo tipo y que la lista que maneja cada persona indica los números de los hielocos que tienen para cambiar y aquellos números que no están en dicha lista son los que necesitan. De esta manera deben crear una función "puedocambiar" que reciba la lista de hielocos que tiene otra persona y la lista de hielocos que tienen ellos y que retorne el número de hielocos que pueden cambiar.
+
+Por ejemplo, llamar la función:
+
+puedocambiar([3,5,7,10,15,16],[4,10,5,8])
+
+Debe retornar
+
+2
+
+Porque a la otra persona solo le interesan dos hielocos que tienen ellos: [4,8], mientras que a ellos les interesan cuatro hielocos que la otra persona tiene: [3,7,15,16] 
+
+[Solución Reto #5](/Ciclo_01/Retos/reto5.py)
+
